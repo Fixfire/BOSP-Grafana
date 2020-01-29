@@ -57,11 +57,12 @@ This will be necessary when configuring the server to save the data.
 #### NodeJS Server Configuration
 
 
-To configure the NodeJS server you need to enter the relative  application folder. To install all the dependencies necessary to properly work, run the command:
+To configure the NodeJS server you need to enter the relative server folder. To install all the dependencies necessary to properly work, run the command:
 
 ```bash
 npm install
 ```
+In order to run the server you need a version greater than 6.3.1 of NodeJS. You can manage the installation of NodeJS versions using the `nvm` tool available at [the nvm Github repository](https://github.com/nvm-sh/nvm).
 
 Now edit the file sequelize.js with the information of the newly created database 
 
